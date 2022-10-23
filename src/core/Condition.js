@@ -1,5 +1,5 @@
-import BaseNode from './BaseNode';
-import {CONDITION} from '../constants';
+import BaseNode from './BaseNode.js';
+import {CONDITION} from '../constants.js';
 
 /**
  * Condition is the base class for all condition nodes. Thus, if you want to

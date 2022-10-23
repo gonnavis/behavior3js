@@ -1,5 +1,5 @@
-import Decorator from '../core/Decorator';
-import {FAILURE, SUCCESS, ERROR} from '../constants';
+import Decorator from '../core/Decorator.js';
+import {FAILURE, SUCCESS, ERROR} from '../constants.js';
 
 /**
  * The Inverter decorator inverts the result of the child, returning `SUCCESS`

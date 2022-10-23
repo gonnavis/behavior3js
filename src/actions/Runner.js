@@ -1,5 +1,5 @@
-import Action from '../core/Action';
-import {RUNNING} from '../constants';
+import Action from '../core/Action.js';
+import {RUNNING} from '../constants.js';
 
 /**
  * This action node returns RUNNING always.

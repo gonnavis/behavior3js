@@ -1,5 +1,5 @@
-import Decorator from '../core/Decorator';
-import {FAILURE, ERROR} from '../constants';
+import Decorator from '../core/Decorator.js';
+import {FAILURE, ERROR} from '../constants.js';
 
 /**
  * The MaxTime decorator limits the maximum time the node child can execute.

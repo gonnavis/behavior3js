@@ -1,5 +1,5 @@
-import Composite from '../core/Composite';
-import {SUCCESS, RUNNING} from '../constants';
+import Composite from '../core/Composite.js';
+import {SUCCESS, RUNNING} from '../constants.js';
 
 /**
  * MemSequence is similar to Sequence node, but when a child returns a

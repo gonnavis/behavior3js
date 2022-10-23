@@ -1,5 +1,5 @@
-import {ERROR} from '../constants';
-import Action from '../core/Action';
+import {ERROR} from '../constants.js';
+import Action from '../core/Action.js';
 
 /**
  * This action node returns `ERROR` always.

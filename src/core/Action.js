@@ -1,5 +1,5 @@
-import BaseNode from '../core/BaseNode';
-import {ACTION} from '../constants';
+import BaseNode from '../core/BaseNode.js';
+import {ACTION} from '../constants.js';
 
 /**
  * Action is the base class for all action nodes. Thus, if you want to create

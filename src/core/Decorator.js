@@ -1,5 +1,5 @@
-import BaseNode from './BaseNode';
-import {DECORATOR} from '../constants';
+import BaseNode from './BaseNode.js';
+import {DECORATOR} from '../constants.js';
 
 /**
  * Decorator is the base class for all decorator nodes. Thus, if you want to

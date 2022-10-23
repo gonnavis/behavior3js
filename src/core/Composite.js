@@ -1,5 +1,5 @@
-import BaseNode from '../core/BaseNode';
-import {COMPOSITE} from '../constants';
+import BaseNode from '../core/BaseNode.js';
+import {COMPOSITE} from '../constants.js';
 
 /**
  * Composite is the base class for all composite nodes. Thus, if you want to

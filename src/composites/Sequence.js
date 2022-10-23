@@ -1,5 +1,5 @@
-import Composite from '../core/Composite';
-import {SUCCESS} from '../constants';
+import Composite from '../core/Composite.js';
+import {SUCCESS} from '../constants.js';
 
 /**
  * The Sequence node ticks its children sequentially until one of them

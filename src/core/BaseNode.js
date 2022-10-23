@@ -1,5 +1,5 @@
-import {createUUID} from '../b3.functions';
-import {RUNNING} from '../constants';
+import {createUUID} from '../b3.functions.js';
+import {RUNNING} from '../constants.js';
 
 /**
  * The BaseNode class is used as super class to all nodes in BehaviorJS. It

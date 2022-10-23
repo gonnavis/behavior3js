@@ -1,5 +1,5 @@
-import Action from '../core/Action';
-import {SUCCESS} from '../constants';
+import Action from '../core/Action.js';
+import {SUCCESS} from '../constants.js';
 
 /**
  * This action node returns `SUCCESS` always.

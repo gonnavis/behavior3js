@@ -1,9 +1,9 @@
-import { createUUID } from '../b3.functions';
-import { COMPOSITE, DECORATOR } from '../constants';
-import * as Decorators from '../decorators';
-import * as Composites from '../composites';
-import * as Actions from '../actions';
-import Tick from './Tick';
+import { createUUID } from '../b3.functions.js';
+import { COMPOSITE, DECORATOR } from '../constants.js';
+import * as Decorators from '../decorators/index.js';
+import * as Composites from '../composites/index.js';
+import * as Actions from '../actions/index.js';
+import Tick from './Tick.js';
 
 /**
  * The BehaviorTree class, as the name implies, represents the Behavior Tree

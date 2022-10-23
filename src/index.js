@@ -1,32 +1,32 @@
-import {VERSION, SUCCESS, FAILURE, RUNNING, ERROR, COMPOSITE, DECORATOR, ACTION, CONDITION} from './constants';
-import {createUUID} from './b3.functions';
+import {VERSION, SUCCESS, FAILURE, RUNNING, ERROR, COMPOSITE, DECORATOR, ACTION, CONDITION} from './constants.js';
+import {createUUID} from './b3.functions.js';
 
-import Error from './actions/Error';
-import Failer from './actions/Failer';
-import Runner from './actions/Runner';
-import Succeeder from './actions/Succeeder';
-import Wait from './actions/Wait';
+import Error from './actions/Error.js';
+import Failer from './actions/Failer.js';
+import Runner from './actions/Runner.js';
+import Succeeder from './actions/Succeeder.js';
+import Wait from './actions/Wait.js';
 
-import MemPriority from './composites/MemPriority';
-import MemSequence from './composites/MemSequence';
-import Priority from './composites/Priority';
-import Sequence from './composites/Sequence';
+import MemPriority from './composites/MemPriority.js';
+import MemSequence from './composites/MemSequence.js';
+import Priority from './composites/Priority.js';
+import Sequence from './composites/Sequence.js';
 
-import Action from './core/Action';
-import BaseNode from './core/BaseNode';
-import BehaviorTree from './core/BehaviorTree';
-import Blackboard from './core/Blackboard';
-import Composite from './core/Composite';
-import Condition from './core/Condition';
-import Decorator from './core/Decorator';
-import Tick from './core/Tick';
+import Action from './core/Action.js';
+import BaseNode from './core/BaseNode.js';
+import BehaviorTree from './core/BehaviorTree.js';
+import Blackboard from './core/Blackboard.js';
+import Composite from './core/Composite.js';
+import Condition from './core/Condition.js';
+import Decorator from './core/Decorator.js';
+import Tick from './core/Tick.js';
 
-import Inverter from './decorators/Inverter';
-import Limiter from './decorators/Limiter';
-import MaxTime from './decorators/MaxTime';
-import RepeatUntilFailure from './decorators/RepeatUntilFailure';
-import RepeatUntilSuccess from './decorators/RepeatUntilSuccess';
-import Repeater from './decorators/Repeater';
+import Inverter from './decorators/Inverter.js';
+import Limiter from './decorators/Limiter.js';
+import MaxTime from './decorators/MaxTime.js';
+import RepeatUntilFailure from './decorators/RepeatUntilFailure.js';
+import RepeatUntilSuccess from './decorators/RepeatUntilSuccess.js';
+import Repeater from './decorators/Repeater.js';
 
 export {
   VERSION,

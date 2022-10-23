@@ -1,5 +1,5 @@
-import Decorator from '../core/Decorator';
-import {FAILURE, SUCCESS, ERROR} from '../constants';
+import Decorator from '../core/Decorator.js';
+import {FAILURE, SUCCESS, ERROR} from '../constants.js';
 
 /**
  * This decorator limit the number of times its child can be called. After a

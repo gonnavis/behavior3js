@@ -1,5 +1,5 @@
-import Composite from '../core/Composite';
-import {FAILURE} from '../constants';
+import Composite from '../core/Composite.js';
+import {FAILURE} from '../constants.js';
 
 /**
  * Priority ticks its children sequentially until one of them returns

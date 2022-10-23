@@ -1,5 +1,5 @@
-import Composite from '../core/Composite';
-import {FAILURE, RUNNING} from '../constants';
+import Composite from '../core/Composite.js';
+import {FAILURE, RUNNING} from '../constants.js';
 
 /**
  * MemPriority is similar to Priority node, but when a child returns a

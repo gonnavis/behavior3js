@@ -1,6 +1,6 @@
-export {default as Inverter} from './Inverter';
-export {default as Limiter} from './Limiter';
-export {default as MaxTime} from './MaxTime';
-export {default as RepeatUntilFailure} from './RepeatUntilFailure';
-export {default as RepeatUntilSuccess} from './RepeatUntilSuccess';
-export {default as Repeater} from './Repeater';
+export {default as Inverter} from './Inverter.js';
+export {default as Limiter} from './Limiter.js';
+export {default as MaxTime} from './MaxTime.js';
+export {default as RepeatUntilFailure} from './RepeatUntilFailure.js';
+export {default as RepeatUntilSuccess} from './RepeatUntilSuccess.js';
+export {default as Repeater} from './Repeater.js';

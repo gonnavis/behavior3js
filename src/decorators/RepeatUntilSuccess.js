@@ -1,5 +1,5 @@
-import Decorator from '../core/Decorator';
-import {SUCCESS, ERROR, FAILURE} from '../constants';
+import Decorator from '../core/Decorator.js';
+import {SUCCESS, ERROR, FAILURE} from '../constants.js';
 
 /**
  * RepeatUntilSuccess is a decorator that repeats the tick signal until the
